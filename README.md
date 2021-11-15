@@ -4,19 +4,14 @@ This project is an example on how fine-tune an [Hugging Face BERT model](https:/
 
 ## Dependencies / Environment
 
-- `python=3.7` or higher
-- `tensorflow=2.5` or higher
-- `transformers=4.12`
-- `numpy`
-- `pandas`
-- `sklearn`
-- `matplotlib`
-- `seaborn`
+- `sagemaker=2.68` or higher
+
+You also need to have [AWS CLI])(https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) in-place and [well-configured](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html) or put your AWS crediential in `.env` file (use can use the `.env.sample` template for that).
 
 ## Use it
 
 1. Download the [IMDB Movie Reviews dataset](https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews) on Kaggle and copy the `IMDB Dataset.csv` into the `data/` as `train.csv`.
-2. Run the `train.ipynb` notebook.
+2. Run the `sagemaker.ipynb` notebook.
 
 Results will be stored in the `output` folder.
 
