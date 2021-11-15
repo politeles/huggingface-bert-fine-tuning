@@ -1,0 +1,5 @@
+output/data/
+output/model/
+data/
+.ipynb*
+.env
