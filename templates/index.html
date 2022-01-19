@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Sagemaker template for VS</title>
+    </head>
+    <body>
+        <h1>VS Code can do that?</h1>
+        <p>Hugging face test</p>
+        <ul>
+            {% for item in data %}
+            <li>Label: {{item.label}}</li>
+            <li>Score: {{item.score}}</li>
+            {%endfor %}
+        </ul>
+    </body>
+</html>

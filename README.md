@@ -1,3 +1,9 @@
+# Hugging Face fine-tuning example based on the Sagemaker template for VS code
+This is an extension of the example using the template to work with SageMaker in Visual Studio Code.
+
+
+
+
 # Hugging Face fine-tuning example 
 
 This project is an example on how fine-tune an [Hugging Face BERT model](https://huggingface.co/bert-base-uncased) for `text-classification` with the [IMDB Movie Reviews dataset](https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews)
@@ -20,8 +26,4 @@ This project is an example on how fine-tune an [Hugging Face BERT model](https:/
 
 Results will be stored in the `output` folder.
 
-## To slow on your computer?
 
-If it take too much time to train on your computer or/and the you don't want to manage your dependencies, your can use [Amazon SageMaker](https://aws.amazon.com/en/sagemaker/) managed training infrastructure. For the check the `sagemaker` branch.
-
-`$ git checkout sagemaker`

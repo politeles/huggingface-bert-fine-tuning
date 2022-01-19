@@ -1,0 +1,9 @@
+flask
+sagemaker
+numpy
+pandas
+seaborn
+sklearn
+tensorflow
+matplotlib
+transformers
